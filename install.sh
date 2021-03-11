@@ -1,4 +1,5 @@
  #!/bin/bash -e
+ #7.0
 apt-get update && apt-get upgrade -y
 # install wget to download jexus, curl for healthcheck.
 apt-get install -y --no-install-recommends curl wget ca-certificates procps sqlite fontconfig xfonts-utils gpg
